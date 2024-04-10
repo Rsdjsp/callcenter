@@ -1,12 +1,16 @@
 import { Button, Heading } from "@chakra-ui/react";
 
+export const metadata = {
+  title: "BDA - Data",
+};
+
 export default function Home() {
   return (
     <>
-      <Heading as="h1" size="xl" m={0}>
-        BDA Call Center
+      <Heading as="h1" size="lg" m={0}>
+        Data
       </Heading>
-      <Button colorScheme="blue">Testing Styles</Button>
+      <Button colorScheme="teal">Testing Chakra</Button>
     </>
   );
 }
