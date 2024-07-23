@@ -32,11 +32,7 @@ export function Header() {
       gap={5}
       boxShadow={`0px 2px 36px -17px`}
     >
-      <Img
-        alt="main logo"
-        width="300px"
-        src={"/Business-Debt-Adjusters-LLC-logo.png"}
-      />
+      <Img alt="main logo" width="300px" src={"/next.svg"} />
       <Flex as="nav" flex={1} alignItems={"center"} gap={5}>
         {navLinks.map((link) => (
           <Link
